@@ -5,7 +5,7 @@ authors = ["Imo-Br"]
 edition = "2021"
 description = "A rust crate, that is used to get html from a website, and scrape the content in it"
 repository = "https://github.com/Imo-Br/web-scraper"
-license = "Boost Software License 1.0"
+license = "BSL-1.0"
 readme = "README.md"
 
 [dependencies]
