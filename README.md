@@ -1,3 +1,12 @@
+# Web-Scraper
+
+A rust crate, that is used to get html from a website, and scrape the content in it
+
+## Example
+
+The following code is an example of how to use it, it gets the html in [the rust lang](https://rust-lang.org) website, then it looks for all the div tags, and gets the contents inside of it
+
+```rs
 use web_scraper::site::get_html;
 use web_scraper::HtmlTag;
 #[tokio::main]
@@ -15,3 +24,4 @@ async fn main() -> Result<(), Box<dyn std::error::Error + std::marker::Send + st
 
     Ok(())
 }
+```
